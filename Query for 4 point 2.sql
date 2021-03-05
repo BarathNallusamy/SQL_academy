@@ -1,0 +1,2 @@
+﻿ALTER TABLE Rooms
+ADD CONSTRAINT Capacity CHECK (Capacity<=25);
